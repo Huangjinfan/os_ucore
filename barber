@@ -1,0 +1,158 @@
+理发师问题的测试用例
+
+在向老师给出的理发师问题的答案代码的基础上，加入一些测试用例：
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}, 
+    {USERB, st_time += 2, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 7
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+{USERB, st_time += 0, rand()%WORK_SPAN}, 
+{USERB, st_time += 0, rand()%WORK_SPAN},
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 4, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 1, rand()%WORK_SPAN}
+  };
+
+#define THREADNUM 6
+  int inst[2 * N][3] = {
+    {USERA, st_time += 0, rand()%WORK_SPAN}, 
+    {USERA, st_time += 1, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 0, rand()%WORK_SPAN}, 
+    {USERB, st_time += 4, rand()%WORK_SPAN}
+  };
+
+理发师问题是一个典型的进程的调度问题。可以使用信号量机制解决互斥的问题。一个理发师信号量，一个顾客信号量，第三个是互斥信号量（mutex）。
+代码中涉及到两个进程，一个是理发师进程UserA，另一个是顾客进程UserB。UserA中定义了理发师的唤醒机制，休息机制和查看下一个机制。进程A结束的条件是理发师休息，没有顾客理发。
+UserB是顾客进程。它规定了顾客进入理发店的执行操作的先后。判断休息椅子是不是>0，否，就直接离开，进程B结束，释放互斥信号量mutex；是，继续执行，选择一个椅子坐下，释放椅子互斥信号量，叫醒理发师，需要等待，锁定互斥信号量，在被理发师理发师释放。
